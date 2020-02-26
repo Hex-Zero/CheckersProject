@@ -31,5 +31,6 @@
             <RowDefinition Height="100"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
+        <Button x:Name="b00" Content=""  Grid.Column="1" Grid.Row="1"/>
     </Grid>
 </Window>
