@@ -32,5 +32,8 @@
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <Button x:Name="b00" Content=""  Grid.Column="1" Grid.Row="1"/>
+        <Button  x:Name="b01"  Content=""  Grid.Column="3" Grid.Row="1"/>
+        <Button  x:Name="b02"  Content=""  Grid.Column="5" Grid.Row="1"/>
+        <Button  x:Name="b03"  Content=""  Grid.Column="7" Grid.Row="1"/>
     </Grid>
 </Window>
