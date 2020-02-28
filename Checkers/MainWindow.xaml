@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:Checkers"
         mc:Ignorable="d"
         Title="MainWindow" Height="925" Width="901">
+  
     <Grid  >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="50"/>
@@ -32,7 +33,7 @@
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
-        <Button  x:Name="b00"  Content=""  Grid.Column="1" Grid.Row="1"/>
+        <Button Style="{DynamicResource RoundCornerWhite}"  Content="" x:Name="b00"    Grid.Column="1" Grid.Row="1"/>
         <Button  x:Name="b01"  Content=""  Grid.Column="3" Grid.Row="1"/>
         <Button  x:Name="b02"  Content=""  Grid.Column="5" Grid.Row="1"/>
         <Button  x:Name="b03"  Content=""  Grid.Column="7" Grid.Row="1"/>
@@ -70,6 +71,6 @@
         <Button  x:Name="b70"  Content=""  Grid.Column="2" Grid.Row="8"/>
         <Button  x:Name="b71"  Content=""  Grid.Column="4" Grid.Row="8"/>
         <Button  x:Name="b72"  Content=""  Grid.Column="6" Grid.Row="8"/>
-        <Button  x:Name="b73"  Content=""  Grid.Column="8" Grid.Row="8"/>
+        <Button Style="{DynamicResource RoundCornerBlack}" x:Name="b73"  Content=""  Grid.Column="8" Grid.Row="8"/>
     </Grid>
 </Window>
