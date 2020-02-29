@@ -34,19 +34,19 @@
         </Grid.RowDefinitions>
 
         <Button Style="{DynamicResource RoundCornerWhite}"  Content="" x:Name="b00"    Grid.Column="1" Grid.Row="1"/>
-        <Button  x:Name="b01"  Content=""  Grid.Column="3" Grid.Row="1"/>
-        <Button  x:Name="b02"  Content=""  Grid.Column="5" Grid.Row="1"/>
-        <Button  x:Name="b03"  Content=""  Grid.Column="7" Grid.Row="1"/>
-
-        <Button  x:Name="b10"  Content=""  Grid.Column="2" Grid.Row="2"/>
-        <Button  x:Name="b11"  Content=""  Grid.Column="4" Grid.Row="2"/>
-        <Button  x:Name="b12"  Content=""  Grid.Column="6" Grid.Row="2"/>
-        <Button  x:Name="b13"  Content=""  Grid.Column="8" Grid.Row="2"/>
-
-        <Button  x:Name="b20"  Content=""  Grid.Column="1" Grid.Row="3"/>
-        <Button  x:Name="b21"  Content=""  Grid.Column="3" Grid.Row="3"/>
-        <Button  x:Name="b22"  Content=""  Grid.Column="5" Grid.Row="3"/>
-        <Button  x:Name="b23"  Content=""  Grid.Column="7" Grid.Row="3"/>
+        <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b01"  Content=""  Grid.Column="3" Grid.Row="1"/>
+        <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b02"  Content=""  Grid.Column="5" Grid.Row="1"/>
+        <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b03"  Content=""  Grid.Column="7" Grid.Row="1"/>
+               
+        <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b10"  Content=""  Grid.Column="2" Grid.Row="2"/>
+        <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b11"  Content=""  Grid.Column="4" Grid.Row="2"/>
+        <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b12"  Content=""  Grid.Column="6" Grid.Row="2"/>
+        <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b13"  Content=""  Grid.Column="8" Grid.Row="2"/>
+           
+        <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b20"  Content=""  Grid.Column="1" Grid.Row="3"/>
+        <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b21"  Content=""  Grid.Column="3" Grid.Row="3"/>
+        <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b22"  Content=""  Grid.Column="5" Grid.Row="3"/>
+        <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b23"  Content=""  Grid.Column="7" Grid.Row="3"/>
 
         <Button  x:Name="b30"  Content=""  Grid.Column="2" Grid.Row="4"/>
         <Button  x:Name="b31"  Content=""  Grid.Column="4" Grid.Row="4"/>
