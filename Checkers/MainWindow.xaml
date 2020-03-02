@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Checkers"
         mc:Ignorable="d"
         Title="MainWindow" Height="925" Width="901">
-  
+
     <Grid  >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="50"/>
@@ -37,12 +37,12 @@
         <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b01"  Content=""  Grid.Column="3" Grid.Row="1"/>
         <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b02"  Content=""  Grid.Column="5" Grid.Row="1"/>
         <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b03"  Content=""  Grid.Column="7" Grid.Row="1"/>
-               
+
         <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b10"  Content=""  Grid.Column="2" Grid.Row="2"/>
         <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b11"  Content=""  Grid.Column="4" Grid.Row="2"/>
         <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b12"  Content=""  Grid.Column="6" Grid.Row="2"/>
         <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b13"  Content=""  Grid.Column="8" Grid.Row="2"/>
-           
+
         <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b20"  Content=""  Grid.Column="1" Grid.Row="3"/>
         <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b21"  Content=""  Grid.Column="3" Grid.Row="3"/>
         <Button Style="{DynamicResource RoundCornerWhite}" x:Name="b22"  Content=""  Grid.Column="5" Grid.Row="3"/>
@@ -58,19 +58,19 @@
         <Button  x:Name="b42"  Content=""  Grid.Column="5" Grid.Row="5"/>
         <Button  x:Name="b43"  Content=""  Grid.Column="7" Grid.Row="5"/>
 
-        <Button  x:Name="b50"  Content=""  Grid.Column="2" Grid.Row="6"/>
-        <Button  x:Name="b51"  Content=""  Grid.Column="4" Grid.Row="6"/>
-        <Button  x:Name="b52"  Content=""  Grid.Column="6" Grid.Row="6"/>
-        <Button  x:Name="b53"  Content=""  Grid.Column="8" Grid.Row="6"/>
+        <Button Style="{DynamicResource RoundCornerBlack}"  x:Name="b50"  Content=""  Grid.Column="2" Grid.Row="6"/>
+        <Button Style="{DynamicResource RoundCornerBlack}"  x:Name="b51"  Content=""  Grid.Column="4" Grid.Row="6"/>
+        <Button Style="{DynamicResource RoundCornerBlack}"  x:Name="b52"  Content=""  Grid.Column="6" Grid.Row="6"/>
+        <Button Style="{DynamicResource RoundCornerBlack}"  x:Name="b53"  Content=""  Grid.Column="8" Grid.Row="6"/>
 
-        <Button  x:Name="b60"  Content=""  Grid.Column="1" Grid.Row="7"/>
-        <Button  x:Name="b61"  Content=""  Grid.Column="3" Grid.Row="7"/>
-        <Button  x:Name="b62"  Content=""  Grid.Column="5" Grid.Row="7"/>
-        <Button  x:Name="b63"  Content=""  Grid.Column="7" Grid.Row="7"/>
+        <Button Style="{DynamicResource RoundCornerBlack}"  x:Name="b60"  Content=""  Grid.Column="1" Grid.Row="7"/>
+        <Button Style="{DynamicResource RoundCornerBlack}"  x:Name="b61"  Content=""  Grid.Column="3" Grid.Row="7"/>
+        <Button Style="{DynamicResource RoundCornerBlack}"  x:Name="b62"  Content=""  Grid.Column="5" Grid.Row="7"/>
+        <Button Style="{DynamicResource RoundCornerBlack}"  x:Name="b63"  Content=""  Grid.Column="7" Grid.Row="7"/>
 
-        <Button  x:Name="b70"  Content=""  Grid.Column="2" Grid.Row="8"/>
-        <Button  x:Name="b71"  Content=""  Grid.Column="4" Grid.Row="8"/>
-        <Button  x:Name="b72"  Content=""  Grid.Column="6" Grid.Row="8"/>
+        <Button Style="{DynamicResource RoundCornerBlack}"  x:Name="b70"  Content=""  Grid.Column="2" Grid.Row="8"/>
+        <Button Style="{DynamicResource RoundCornerBlack}"  x:Name="b71"  Content=""  Grid.Column="4" Grid.Row="8"/>
+        <Button Style="{DynamicResource RoundCornerBlack}"  x:Name="b72"  Content=""  Grid.Column="6" Grid.Row="8"/>
         <Button Style="{DynamicResource RoundCornerBlack}" x:Name="b73"  Content=""  Grid.Column="8" Grid.Row="8"/>
     </Grid>
 </Window>
